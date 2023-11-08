@@ -28,12 +28,12 @@
   },
   "autoload": {
     "psr-4": {
-      "Chumper\\Zipper\\": "src/Chumper/Zipper"
+      "Sfma\\Zipper\\": "src/Sfma/Zipper"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Chumper\\Zipper\\": "tests/"
+      "Sfma\\Zipper\\": "tests/"
     }
   },
   "config": {
@@ -42,10 +42,10 @@
   "extra": {
     "laravel": {
       "providers": [
-        "Chumper\\Zipper\\ZipperServiceProvider"
+        "Sfma\\Zipper\\ZipperServiceProvider"
       ],
       "aliases": {
-        "Zipper": "Chumper\\Zipper\\Zipper"
+        "Zipper": "Sfma\\Zipper\\Zipper"
       }
     }
   },
