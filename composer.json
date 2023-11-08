@@ -8,12 +8,18 @@
     "Archive"
   ],
   "homepage": "http://github.com/brunoksato/zipper",
-  "license": "Apache2",
+  "license": "MIT",
   "authors": [
     {
       "name": "Bruno Sato",
       "email": "bruno.sato@live.com",
       "role": "Developer"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/brunoksato/zipper"
     }
   ],
   "require": {
